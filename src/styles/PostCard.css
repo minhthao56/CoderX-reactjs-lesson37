@@ -1,0 +1,111 @@
+.container-postcard {
+  border: solid;
+  width: 620px;
+  border-width: 1px;
+  border-color: rgba(150, 150, 150, 0.3);
+  border-radius: 3px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.header-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 0 10px;
+  margin-bottom: 10px;
+}
+.img-name img {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}
+.img-name span {
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 10px;
+}
+.context-card img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.icon-heart {
+  display: flex;
+  justify-content: flex-start;
+}
+.icon-heart img {
+  height: 32px;
+  width: 32px;
+  margin-left: 10px;
+}
+.title-card {
+  color: black;
+  text-align: start;
+  margin-left: 10px;
+}
+.description-card {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.icon-heart {
+  display: flex;
+  flex-direction: column;
+}
+.icon-heart span {
+  margin-left: 10px;
+  font-size: 12px;
+}
+.container-comments {
+  padding-bottom: 10px;
+}
+.comment {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12.5px;
+  margin-top: 10px;
+  border: solid;
+  padding: 5px;
+  border-width: 1px;
+  display: flex;
+  align-items: center;
+  border-color: rgba(150, 150, 150, 0.3);
+  border-radius: 50px;
+  background-color: #fafafa;
+}
+.comment img {
+  height: 24px;
+  width: 24px;
+}
+.name-comment {
+  padding-left: 10px;
+  font-weight: bold;
+}
+.comment-content {
+  margin-left: 10px;
+}
+.form-comment {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.form-comment form {
+  display: flex;
+}
+.form-comment input {
+  flex: 1;
+  font-size: 13px;
+}
+.form-comment input:focus {
+  outline: none;
+}
+.form-comment button,
+input {
+  border: none;
+  background-color: white;
+  border-bottom: solid;
+  border-color: rgba(150, 150, 150, 0.3);
+  border-width: 1px;
+}
+.form-comment button {
+  font-size: 14px;
+  color: #3aacf7;
+  font-weight: bold;
+}
