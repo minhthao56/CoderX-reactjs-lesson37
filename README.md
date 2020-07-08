@@ -4,7 +4,7 @@ This project clone Instagram by React and Express js. Project is still complete 
 
 # Install
 
-Clone project: `git clone https://github.com/minhthao56/codersx-reatjs-lesson28.git`
+Clone project: `git clone https://github.com/minhthao56/CoderX-reactjs-lesson37.git`
 
 Install node modules: `npm install`
 
